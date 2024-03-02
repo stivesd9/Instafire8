@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#3d93d9</color>
+    <color name="ColorPrimaryDark">#00574B</color>
+    <color name="ColorAccent">#D81B60</color>
+
+    <color name="Color_pink">#cf4bf8</color>
+    <color name="Color_violet">#8813e4</color>
+    <color name="Color_blue">#3d93d9</color>
+    <color name="Color_green_light">#5ff0f7</color>
+    <color name="instafiree">#DF3804</color>
+</resources>

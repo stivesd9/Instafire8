@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InstaFire" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">#3d93d9</item>
+        <item name="colorPrimaryVariant">#05307C</item>
+        <item name="colorOnPrimary">#090909</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#05AE87</item>
+        <item name="colorSecondaryVariant">#086A62</item>
+        <item name="colorOnSecondary">#0E0E0E</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="darkxtheme">
+        <item name="android:textColor">#29579E</item>
+        <item name="android:textColorHint">#29579E</item>
+        <item name="android:backgroundTint">#29579E</item>
+    </style>
+
+    <style name="darkxtheme2">
+        <item name="android:textColor">#FFFEFE</item>
+        <item name="android:textColorHint">#FFFEFE</item>
+        <item name="android:backgroundTint">#FFFEFE</item>
+    </style>
+
+    <style name="darkxtheme3">
+        <item name="android:textColor">#FDFBFB</item>
+        <item name="android:textColorHint">#FDFBFB</item>
+        <item name="android:backgroundTint">#FDFBFB</item>
+    </style>
+
+
+</resources>

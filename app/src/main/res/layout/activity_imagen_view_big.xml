@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagenViewBigActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CategLd"
+        android:gravity="center"
+        android:text="Nombre"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#262627"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/usernameList"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Color_blue"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/CategLdescrip"
+        android:gravity="center"
+        android:text="Descripción"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#262627"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/userDescript"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Color_blue"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/CategRating"
+        android:gravity="center"
+        android:text="Descripción"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#262627"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/userRaiting"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Color_blue"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivBigImage"
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+    </ImageView>
+
+
+
+</LinearLayout>

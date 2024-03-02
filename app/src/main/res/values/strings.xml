@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InstaFire</string>
+    <string name="Email">email</string>
+    <string name="Contraseña">password</string>
+    <string name="INICIARSESIÓN">Login</string>
+    <string name="profile">Profile</string>
+    <string name="rahul">rahul</string>
+    <string name="_48_minutes_ago">48 minutes ago</string>
+</resources>

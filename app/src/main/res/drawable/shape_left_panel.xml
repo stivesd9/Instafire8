@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shadow_left"/>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topRightRadius="40dp" android:bottomRightRadius="40dp" />
+            <gradient android:angle="225"
+                android:startColor="#29579E"
+                android:centerColor="@color/Color_violet"
+                android:endColor="@color/Color_pink"/>
+        </shape>
+    </item>
+</layer-list>

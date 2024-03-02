@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#313435"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/CategL"
+        android:gravity="center"
+        android:text="Categorias"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CategListPro"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/CategLisText"
+        android:text="Nombre"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tvUserCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/CategLisTextN"
+        android:text="Descripción"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/descriptionCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/CategLisTextP"
+        android:text="Precio"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/priceCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+
+    <TextView
+        android:id="@+id/CategLisTextD"
+        android:text="Descuento porcentaje"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/descountPorcCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/CategLisTextR"
+        android:text="Rating"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ratingCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/CategLisTextS"
+        android:text="Stock"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/stockCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/CategLisTextB"
+        android:text="Marca"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/Color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/brancCateg"
+        android:textColor="#FAF6F6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/ivImageCat"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+</LinearLayout>
